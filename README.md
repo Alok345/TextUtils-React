@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# TextUtils-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+![GitHub repo size](https://img.shields.io/github/repo-size/Alok345/TextUtils-React?style=for-the-badge)
+![License](https://img.shields.io/github/license/Alok345/TextUtils-React?style=for-the-badge)
+![React Version](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+**A professional-grade React application for seamless text manipulation and analysis.**
+
+</div>
+
+---
+
+## 📝 Description
+**TextUtils-React** is a powerful, lightweight web application built by [Alok345](https://github.com/Alok345). Designed to streamline text processing tasks, this tool provides users with an intuitive interface to format, analyze, and manipulate text strings efficiently. Whether you are counting words, changing text casing, or clearing inputs, TextUtils-React handles it all with the speed and reliability of React.
+
+---
+
+## 🚀 Key Features
+*   **Dynamic Text Manipulation:** Easily convert text to Uppercase, Lowercase, or clear existing content.
+*   **Real-time Analysis:** Instant word and character counting functionality.
+*   **Responsive UI:** Fully optimized for different screen sizes using React's component-based architecture.
+*   **Optimized Performance:** Built with modern React standards for fast rendering and minimal overhead.
+*   **React Router Integration:** Seamless navigation support via `react-router-dom`.
+
+---
+
+## 🛠 Tech Stack
+*   **Frontend:** [React 18](https://reactjs.org/)
+*   **Routing:** [React Router v6](https://reactrouter.com/)
+*   **Build Tool:** [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
+*   **Testing:** [Jest](https://jestjs.io/) & [React Testing Library](https://testing-library.com/)
+
+---
+
+## 📂 Project Structure
+```text
+TextUtils-React/
+├── public/             # Static assets
+├── src/                # Application source code
+│   ├── module1.mjs     # Logic/Utility module
+│   └── module2.mjs     # Logic/Utility module
+├── package.json        # Project dependencies and scripts
+├── .gitignore          # Files to ignore in Git
+└── README.md           # Project documentation
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to get the development environment running locally:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Alok345/TextUtils-React.git
+cd TextUtils-React
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start the application
+```bash
+npm start
+```
+*The app will automatically open at `http://localhost:3000`.*
+
+---
+
+## 🚀 Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+| Command | Description |
+| :--- | :--- |
+| `npm start` | Runs the app in development mode. |
+| `npm test` | Launches the test runner for component testing. |
+| `npm run build` | Builds the app for production in the `build` folder. |
+| `npm run eject` | Ejects the configuration (One-way operation). |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚖️ License
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute this software as you see fit.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://github.com/Alok345">Alok345</a></sub>
+</div>
